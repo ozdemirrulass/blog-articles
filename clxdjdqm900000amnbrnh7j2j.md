@@ -1,5 +1,5 @@
 ---
-title: "Enterprise-Level Authentication in a Containerized Environment for Next.js 14 - AuthJS Patch"
+title: "Enterprise-Level Authentication in a Containerized Environment for Next.js 13 - AuthJS Patch"
 seoTitle: "Enterprise-Level Authentication in a Containerized Environment NextJS"
 seoDescription: "Integrate NextJS, Keycloak and MySQL services and handle authentication flow using AuthJS in a containerized environment."
 datePublished: Thu Jun 13 2024 17:31:17 GMT+0000 (Coordinated Universal Time)
@@ -18,7 +18,7 @@ To get the most out of this post please setup your environment as I shared in my
 
 [https://github.com/ozdemirrulass/nextjs-keycloak-authjs](https://github.com/ozdemirrulass/nextjs-keycloak-authjs)
 
-## NextJS 14 Keycloak Integration Using AuthJS
+## NextJS 13 Keycloak Integration Using AuthJS
 
 1. Install AuthJS as it is suggested in [official documentation](https://authjs.dev/getting-started/installation?framework=next.js):
     
@@ -167,7 +167,7 @@ export default async function Home() {
 }
 ```
 
-Congratulations 👏 You've done it. You just implemented an Enterprise-Level Authentication in a Containerized Environment for Next.js 14 using AuthJS instead of [NextAuth](https://next-auth.js.org/) !
+Congratulations 👏 You've done it. You just implemented an Enterprise-Level Authentication in a Containerized Environment for Next.js 13 using AuthJS instead of [NextAuth](https://next-auth.js.org/) !
 
 ```bash
 docker compose -f docker-compose.dev.yml build
